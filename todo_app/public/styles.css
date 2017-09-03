@@ -1,0 +1,32 @@
+
+.breathVertical{
+    margin-top:5px;
+    margin-bottom: 5px;
+}
+.breathHorizontal{
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: red;
+}
+#heading{
+    background-color: khaki;
+}
+div#bodyy{
+    background-color: antiquewhite;
+}
+div.todoStatusACTIVE{
+    color : blue;
+}
+div.todoStatusCOMPLETE{
+    color : green;
+}
+div.todoStatusDELETED{
+    color : red;
+    //display: none;
+}
+.hidebuttons{
+    font-size: medium;
+    font-style: italic;
+    background-color: coral;
+
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>todoapp</title>
+    <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+<div id="bodyy">
+<h1 id="heading" align="center">My todo app </h1>
+<!--<button  onclick="gettodoajax()">gettodo</button>-->
+    <input type="text" id="new_todo_input" height="300" width="400" placeholder="enter todo title here"/>
+    <input type="submit" value="Add todo" onclick="addTodoAJAX()"/>
+<p  class="hidebuttons">Active Todos</p>
+    <b>Active Todos</b><input class="hidebuttons" id="A" type="button"  value="HideActive" onclick="hidedata(id)" style="float: right;">
+<div id="todos_list_div">
+
+
+</div>
+<hr>
+    <p  class="hidebuttons">Active Todos</p>
+    <b>Completed: Todos</b><input class="hidebuttons" id="C" type="button" onclick="hidedata(id)" value="HideCompleted" style="float: right;">
+<!--<p class="subheadings">Completed Todo</p> -->
+
+<div id="complete_list">
+
+</div>
+
+<hr>
+    <p  class="hidebuttons">Active Todos</p>
+    <b>Deleted Todos:</b><input class="hidebuttons" id="D" type="button" onclick="hidedata(id)" value="HideDeleted" style="float: right;">
+
+<div id="deleted_list">
+
+</div>
+<br>
+<br>
+
+<script src="/script.js" type="text/javascript"></script>
+</div>
+</body>
+</html>
