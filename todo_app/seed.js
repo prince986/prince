@@ -9,7 +9,7 @@ var todos={
     3: {title: "Interactive git", status: statusENUMS.ACTIVE}
 }
 
-var next_todo_id=1;
+var next_todo_id=4;
 module.exports={
     statusENUMS: statusENUMS,
     todos :todos,
